@@ -42,7 +42,7 @@ ACCOUNTS = [
 ]
 
 def number_of_bank_accounts()
-
+  return ACCOUNTS.count
 end
 
 def first_bank_account_holder()

@@ -4,10 +4,10 @@ require('minitest/autorun')
 class Functions_Practice < MiniTest::Test
 
   # # Return total number of accounts
-  # def test_total_number_of_accounts
-  #   bank_accounts_count = number_of_bank_accounts()
-  #   assert_equal(8,bank_accounts_count)
-  # end
+  def test_total_number_of_accounts
+    bank_accounts_count = number_of_bank_accounts()
+    assert_equal(8,bank_accounts_count)
+  end
 
   # Return first account holder
   def test_first_account_holder
