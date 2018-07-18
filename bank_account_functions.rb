@@ -46,7 +46,7 @@ def number_of_bank_accounts()
 end
 
 def first_bank_account_holder()
-
+  return ACCOUNTS.first[:holder_name]
 end
 
 def bank_account_owner_names()
